@@ -1,0 +1,13 @@
+.card{
+    height: 10rem;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.color1{
+    background-color: #959287;
+}
+.color2{
+    background-color: #404040;
+}

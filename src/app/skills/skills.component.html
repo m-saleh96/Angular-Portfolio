@@ -1,0 +1,31 @@
+<div class="main mt-5 bg-dark text-white pt-5">
+    <div class="container text-center">
+        <div>
+            <h1>Skills</h1>
+            <p>                    I'm Full-Stack Developer from Cairo, Egypt, working in web development. I enjoy turning complex
+                problems into simple, beautiful and intuitive development .
+
+                My job is to build your website so that it is functional and user-friendly but at the same time
+                attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and
+                easy to use. My aim is to bring across your message and identity in the most creative way.</p>
+        </div>
+        <div class="row   mt-5 p-5">
+            <div class="col-md-3">
+                <h6>my Skills</h6>
+                
+                <p>front end</p>
+                <p>back end</p>
+                <p>graphic end</p>
+                <p>front end</p>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <div *ngFor="let skill of skills"   class="mb-2">
+                            <app-skill-child [skill]="skill"></app-skill-child>
+                    </div>
+                </div>           
+            </div>
+
+        </div>
+    </div>
+</div>

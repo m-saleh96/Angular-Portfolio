@@ -1,0 +1,12 @@
+.main{
+    height: 70vh;
+    background-image: url(../../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.container {
+    margin-top: 10rem;
+    padding-top: 6rem;
+}

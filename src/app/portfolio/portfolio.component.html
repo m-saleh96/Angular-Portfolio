@@ -1,0 +1,10 @@
+<div class="main ">
+    <div class="container mt-5 ">
+        <h1>Portfolio</h1>
+        <div class="row m-5 text-white">
+            <div *ngFor="let card of cards ; let i = index"  class="col-md-4 col-sm-6">
+                <app-portfolio-child [card]="card" [i]="i"></app-portfolio-child>
+            </div>
+        </div>
+    </div>
+</div>
